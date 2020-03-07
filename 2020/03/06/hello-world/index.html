@@ -345,16 +345,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2020/03/06/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2020/03/06/hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -475,8 +465,8 @@
           
 
   
-    <div class="comments" id="comments">
-    </div>
+  <div class="comments" id="comments">
+  </div>
   
 
 
@@ -808,29 +798,26 @@
 
 
 
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
   
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: '8QV57h8sfMAL36lK78u3YVMJ-gzGzoHsz',
-        appKey: 'w8acGkofO5MRIq4pqNzEnQpY',
-        placeholder: '你有什么想对我说的吗？',
-        avatar:'mm',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-  </script>
-
-
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script type="text/javascript">
+      const gitalk = new Gitalk({
+        clientID: '5dbdba29b9e267a1d0c6',
+        clientSecret: '5e89ea8f31c15d49ded695f8c64855439ca6d4bc',
+        repo: 'mygitalk',
+        owner: 'jollycc',
+        admin: 'jollycc'.split(','),
+        id: location.pathname,
+        // facebook-like distraction free mode
+        distractionFreeMode: 'true',
+        createIssueManually: 'true'
+      })
+      gitalk.render('gitalk-container')
+    </script>
+  
 
   
 
