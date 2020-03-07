@@ -768,14 +768,16 @@
     <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
     
 	<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script type="text/javascript">
+    <script src="/js/src/md5.min.js"></script>
+	<script type="text/javascript">
       var gitalk = new Gitalk({
         clientID: '5dbdba29b9e267a1d0c6',
         clientSecret: '5e89ea8f31c15d49ded695f8c64855439ca6d4bc',
         repo: 'gitalk',
         owner: 'Jollycc',
         admin: 'Jollycc'.split(','),
-        id: location.pathname,
+        //id: location.pathname,
+		id: md5(location.pathname),
         // facebook-like distraction free mode
         distractionFreeMode: '',
         createIssueManually: 'true'
