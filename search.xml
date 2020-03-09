@@ -3,7 +3,7 @@
   <entry>
     <title>我的第一篇博客</title>
     <url>/2020/03/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<!-- build time:Mon Mar 09 2020 14:36:15 GMT+0800 (GMT+08:00) --><p><img src="/images/postimg/test.jpg" alt="test"></p><p>✌️博客搭完了！</p><p>说实话，过程中，除了clone太慢会fail之外，并没有遇到别的什么问题。😂</p><p>关于clone也找到了解决办法。</p><p>下面写一下我的解决过程吧，因为我也不知道哪一步是解决问题的关键…😂</p><p>1：<br>git config --global http.postBuffer 524288000<br>没有用<br>2：<br>git config --global http.lowSpeedLimit 0<br>git config --global http.lowSpeedTime 999999<br>还是不行<br>3：<br>git config --global http.sslVerify “false”<br>并且用手机4G给电脑开热点</p><p>然后clone…</p><p>嗯？竟然好了？！😮</p><p>嗯。😬</p><p>第一篇博客，就这样吧。😐</p><!-- rebuild by neat -->]]></content>
+    <content><![CDATA[<!-- build time:Mon Mar 09 2020 15:09:56 GMT+0800 (GMT+08:00) --><p><img src="/images/postimg/test.jpg" alt="test"></p><p>✌️博客搭完了！</p><p>说实话，过程中，除了clone太慢会fail之外，并没有遇到别的什么问题。😂</p><p>关于clone也找到了解决办法。</p><p>下面写一下我的解决过程吧，因为我也不知道哪一步是解决问题的关键…😂</p><p>1：<br>git config --global http.postBuffer 524288000<br>没有用<br>2：<br>git config --global http.lowSpeedLimit 0<br>git config --global http.lowSpeedTime 999999<br>还是不行<br>3：<br>git config --global http.sslVerify “false”<br>并且用手机4G给电脑开热点</p><p>然后clone…</p><p>嗯？竟然好了？！😮</p><p>嗯。😬</p><p>第一篇博客，就这样吧。😐</p><!-- rebuild by neat -->]]></content>
       <categories>
         <category>随笔</category>
       </categories>
