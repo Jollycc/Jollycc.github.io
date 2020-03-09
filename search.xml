@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>0309VUE笔记</title>
+    <url>/2020/03/09/0309VUE%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<!-- build time:Mon Mar 09 2020 15:19:33 GMT+0800 (GMT+08:00) --><h1><strong>1.课程****回顾</strong></h1><p>生命周期钩子函数的回顾：</p><ol><li>组件的创建阶段</li></ol><p>beforeCreate created beforeMount mounted</p><ol start="2"><li>组件的运行阶段</li></ol><p>beforeUpdate updated</p><ol start="3"><li>组件的销毁阶段</li></ol><p>beforeDestory destroyed</p><p>nextTick ： 下一次dom更新之后执行的回调</p><p>Vue.nextTick(()=&gt;{xxx})</p><h1><strong>2.axios介绍</strong></h1><p>Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器(XMLHttpRequest)和 node.js (HTTP) 中。</p><h1><strong>3.axios</strong></h1><h1>4. <strong>vue****动画</strong></h1><p>首先vue中所提供的的动画方案的应用场景：元素的进入和离开</p><h2 id="4-1-入场-动画和出场动画介绍"><a class="header-anchor" href="#4-1-入场-动画和出场动画介绍">¶</a><strong>4.1 入场****动画和出场动画介绍</strong></h2><p>![img](file:///C:\Users\JLL\AppData\Local\Temp\ksohtml12124\wps2.jpg)</p><p>![img](file:///C:\Users\JLL\AppData\Local\Temp\ksohtml12124\wps3.jpg)</p><h2 id="4-2-animate-css动画库的使用"><a class="header-anchor" href="#4-2-animate-css动画库的使用">¶</a>4.2 <strong>animate.css<strong><strong>动画库</strong></strong>的使用</strong></h2><h2 id="4-3-动画-钩子函数"><a class="header-anchor" href="#4-3-动画-钩子函数">¶</a>4.3 <strong>动画****钩子函数</strong></h2><h1>5. <strong>method</strong>**、**<strong>computed和watch介绍</strong></h1><!-- rebuild by neat -->]]></content>
+  </entry>
+  <entry>
     <title>我的第一篇博客</title>
     <url>/2020/03/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<!-- build time:Mon Mar 09 2020 15:09:56 GMT+0800 (GMT+08:00) --><p><img src="/images/postimg/test.jpg" alt="test"></p><p>✌️博客搭完了！</p><p>说实话，过程中，除了clone太慢会fail之外，并没有遇到别的什么问题。😂</p><p>关于clone也找到了解决办法。</p><p>下面写一下我的解决过程吧，因为我也不知道哪一步是解决问题的关键…😂</p><p>1：<br>git config --global http.postBuffer 524288000<br>没有用<br>2：<br>git config --global http.lowSpeedLimit 0<br>git config --global http.lowSpeedTime 999999<br>还是不行<br>3：<br>git config --global http.sslVerify “false”<br>并且用手机4G给电脑开热点</p><p>然后clone…</p><p>嗯？竟然好了？！😮</p><p>嗯。😬</p><p>第一篇博客，就这样吧。😐</p><!-- rebuild by neat -->]]></content>
